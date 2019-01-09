@@ -1,0 +1,35 @@
+- icon: icon-user-md
+  title: General Family and Kids Dentistry
+  image: GeneralDentistry.jpg
+  description: <br>Tooth Removal, Cleanings, Fillings, Sealants. <br><br> Swelling, Infections, Tooth Pain, Oral Cancer Screenings.
+  moreinfo: generaldentistry.html
+
+- icon: icon-trophy
+  title: Orthodontic - Invisalign
+  image: Cosmetic.jpg
+  description: <br>Botox, Zoom Whitening, <br><br>Kids and Adults Invisalign Clear Aligners, Cosmetic Veneers, Metal Free Partials.
+  moreinfo:
+
+- icon: icon-diamond
+  title: Teeth Whitening SPECIALS
+  image: TeethWhitening.jpg
+  description: <br>All New patients on their SECOND cleaning appointments gets a FREE TEETH WHITENING KIT. <br>This is a TOP of the line, in house kit, that Dr Kathawala herself uses on her own teeth. 
+  moreinfo:
+
+- icon: icon-globe
+  title: Dentures
+  image: Dentures.jpg
+  description: <br>Dentures and partial dentures are custom-made LOCALLY by a dedicated team of technicians.<br><br> We also offer IMPLANTS and BRIDGES. Our AFFORDABLE prices will delight you.
+  moreinfo:
+
+- icon: icon-ambulance
+  title: Emergency Calls
+  image: Emergency.jpg
+  description: <br>SAME DAY EMERGENCIES - For emergencies call us, we will schedule you the same day.<br> <br>Its our commitment,you will <B>LOVE </B>the experience and care you will receive. 
+  moreinfo:
+
+- icon: icon-leaf
+  title: Root Canal & Crowns
+  image: RootCanal.jpg
+  description: <br>We use HIGH QUALITY materials for your crowns. <br><br>Dr Kathawala has done 100's of successful root canal therapies. <B>Her soft touch will feel almost pain free. </B> 
+  moreinfo:

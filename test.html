@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<div id="team" class="team"> 
+    <h2 class="section-title" style="color:gold">Meet The Doctor </h2> 
+<!-- TODO TODO   <div id="team-carousel"> -->
+
+        <div class="row">
+    {% for member in site.data.team %}
+        <div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
+                <h2 style="color:gold">{{ member.name }}</h2>
+				<h4 style="color:white"> <p> {{ member.writeup}}</p> </h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
+                </a>
+                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
+                </a>
+            </div> 
+        </div>
+    {% endfor %}
+    </div>
+	</div>
+<!-- TODO START ADDING WHY US - BEGIN HERE -->
+<div id="whyus" class="whyus"> 
+    <div class="container-fluid">
+        <h2 class="section-title" style="color:gold">Why Us</h2>
+
+        <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:red"> <B>1. Your Comfort Comes First </B><p></p><br><p style="color:black">Going to the dentist can be intimidating.<br>Enjoy our comfortable and relaxed office setting.<br><br> Every treatment room has large windows for a pleasant view and natural sunlight during your visit. <br><B><br>There is AMPLE PARKING onsite.</B>
+						</div>
+						</div>
+
+					<div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:red"><b>2. The Dentist Costs Too Much! </b><p><br><p style="color:black">Our prices are UPFRONT and LOWEST in the area; we always provide a full price breakdown before we begin any work. <br><br> We offer low prices by keeping our overhead low, <B>we love emails and texts but hate phone calls, so email or text for quicker service.</b> <br><br>
+						</div>
+						</div>
+
+					<div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:red"><b>3. SUNDAY  Appointments Available.. yes!</b> <p> <br><p style="color:black">We know you are busy, so we work around your schedules. We work full day on sundays. We have early morning and late evenings appointments on Fridays and Saturdays. <br><br> <B>We are here for you, working around your conveninece, as oppose to ours...</b> <br><br>
+						</div>
+						</div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:red"><b>4. We take all INSURANCES</b> <p><br><p style="color:black">We take all major PPO plans such as Delta Dental, Aetna, Metlife and many more ... We will verify your coverage before your visit, and will work HARD to get you the most benefit from your coverage<br><br> <B>No surprises </B> -  when you arrive for your visit we will provide insurance breakdown, and answer all your questions. 
+						</div>
+						</div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:red"><b>5. We provide TRUSTED CARE</b><p> <br><p style="color:black">We want to earn your trust. <B> We will treat you like family. </B>  <br> <br>Dr Kathawala is a caring dentist, she believes in educating and answering all patient concerns.  <br><br>We want to DELIGHT you - Give us a chance, you want be dissappointed! </p> <br>
+						</div>
+						</div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:red"><b>6. KINDNESS and EMPATHY are our CORE values </b><p><br><p style="color:black">Dr Kathawala grew up, surrounded by doctors in her family. Her mom is a gynecologist. At an early age, she has seen suffering and what empathy can do to patients. <br><br>Besides working here, she still spents a lot of time, helping people in need in poor neighborhoods of Jersey City NJ.<br><br>Patients at her Jersey City Clinic revere her.<br><br> She is COMMITTED to doing  what's RIGHT for the patient.  
+						</div>
+						</div>
+				
+				</div>	<!-- Row ends here --> 
+
+
+<!--  END HERE - TODO START ADDING WHY US -->
+</div>
+</div>
+
+<!-- End Our team -->

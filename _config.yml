@@ -1,0 +1,69 @@
+# Site settings
+title: Cute Smiles NJ | Samina Kathawala DDS | Hackensack
+description: "Cute Smiles is one of the Top Dentist in Hackensack NJ Zipcode 07601. Top Invisalign braces orthodontics provider. Samina Kathawala DDS Dentist YELP VITAL FACEBOOK TOP DENTIST REVIEWS"
+baseurl: "/546Phe345" # the subpath of your site, e.g. /blog
+url: "https://dk5646hytio.github.io" # the name of your domain
+logo_url: svg/min/logo.svg
+
+
+
+# Hero
+hero: 
+    hero_img: hero.jpg
+    hero_title: Your Satisfaction is Guaranteed! 
+    hero_description: At our clinic  you will be treated like family.<B> Dr Kathawala </B> and her staff is loving,caring and passionate about your well being. Make an appointment and experience the difference. 
+
+# Contact form
+api_token: 79c4fb60ef557a2d31cd16e1300c0d27
+
+# Contact info
+contact:
+
+    phone: 201 778 0225
+    email: cutesmilesnj@gmail.com
+    address: 52 Summit Ave <br> Hackensack NJ <br> 07601
+
+# Opening hours
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 15
+    address: 52 Summit Ave, Hackensack NJ
+    address_details: svg/min/logo.svg
+
+# Social settings
+# facebook: http://facebook.com
+# twitter: http://twitter.com
+# instagram: http://instagram.com
+# youtube: http://youtube.com
+# skype: skype:obaez_design?userinfo
+# feed: yes
+
+# Footer
+copyright: <B> Cute Smiles LLC, <P> 52 Summit Ave, Hackensack NJ 07601 </P> <p>Phone <a style="color:white" href="tel:201 778 0225" > 201 778 0225 </a><B></p> <p>© 2018 CuteSmiles - All rights reserved</p>
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:
