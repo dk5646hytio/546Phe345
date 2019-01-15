@@ -1,6 +1,6 @@
 # Site settings
-title: Cute Smiles NJ | Samina Kathawala DDS | Hackensack
-description: "Cute Smiles is one of the Top Dentist in Hackensack NJ Zipcode 07601. Top Invisalign braces orthodontics provider. Samina Kathawala DDS Dentist YELP VITAL FACEBOOK TOP DENTIST REVIEWS"
+title: Cute Smile NJ | Samina Kathawala DDS | Hackensack
+description: "Cute Smile is one of the Top Dentist in Hackensack NJ Zipcode 07601. Top Invisalign braces orthodontics provider. Samina Kathawala DDS Dentist YELP VITAL FACEBOOK TOP DENTIST REVIEWS"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.cutesmilenj.com" # the name of your domain
 logo_url: svg/min/logo.svg
@@ -47,7 +47,7 @@ map:
 # feed: yes
 
 # Footer
-copyright: <B> Cute Smiles LLC, <P> 52 Summit Ave, Hackensack NJ 07601 </P> <p>Phone <a style="color:white" href="tel:201 778 0225" > 201 778 0225 </a><B></p> <p>© 2018 CuteSmiles - All rights reserved</p>
+copyright: <B> Cute Smile LLC, <P> 52 Summit Ave, Hackensack NJ 07601 </P> <p>Phone <a style="color:white" href="tel:201 778 0225" > 201 778 0225 </a><B></p> <p>© 2018 CuteSmile - All rights reserved</p>
 
 # Build settings
 markdown: kramdown
