@@ -69,3 +69,9 @@ bing_site_verification   :
 google_site_verification : Hj0p0zna6YPQDuROI9_3uJl0VU1CrXOFTGiF-VLc4XQ
 alexa_site_verification  :
 yandex_site_verification :
+
+analytics:
+  provider               : "google-universal" # "google" , "custom"
+  google:
+    tracking_id          : UA-132426320-1
+
