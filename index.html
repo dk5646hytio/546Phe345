@@ -120,7 +120,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p> <B style="color:red">We particpate in most PPO plans </B> such as <B>Delta Dental, Aetna, Cigna, Connection Dental, Guardian, Tricare, Metlife and many more.</B> Just take a picture (front and back) of your insurance card and email us and we will have your coverage and benefits info ready when you arrive. We will even process your claim & help you maximize your benefits.<B>Always utilise your two free cleanings benefits; a benefit most insurance offers at NO cost each year. Routine checkup and cleaning is the only way to keep you teeth healthy.</b></p>
+                        <p> <B style="color:red">We particpate in most PPO plans </B> such as <B>Delta Dental, Aetna, Cigna, United Concrodia and many more.</B> Just take a picture (front and back) of your insurance card and email us  at ({% if site.contact.email %}<b><a style="color:black" href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>{% endif %} </b>)and we will have your coverage and benefits info ready when you arrive. We will even process your claim & help you maximize your benefits.<B><p>Always utilise your two free cleanings benefits (once every six month); a benefit most insurance offers at NO cost each year. Routine checkup and cleaning is the only way to keep you teeth healthy.</b></p>
                     </div>
                 </div>
 
@@ -176,7 +176,10 @@ layout: default
             <div class="expandable-box-top">
                 <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
                 <h2 style="color:gold">{{ member.name }}</h2>
+				                <h2 style="white"><p> {{ member.tagline }} </p></h2>
+
 				<h4 style="color:white"> <p> {{ member.writeup}}</p> </h4>
+
             </div>
             <div class="expandable-box-bottom">
                 <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
@@ -346,3 +349,54 @@ TODO TURNED OFF -->
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.365710364024!2d-74.06068088489864!3d40.88579207931327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fa20c5d6d0e3%3A0x2d0bdc55167c07b3!2s52+Summit+Ave%2C+Hackensack%2C+NJ+07601!5e0!3m2!1sen!2sus!4v1541732154975" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
+
+
+<!-- TODO START ADDING WHY US - BEGIN HERE -->
+<div id="specials" class="whyus"> 
+
+    <div class="container-fluid">
+        <h2 class="section-title" style="color:gold">SPECIALS</h2> 
+
+        <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:darkturquoise" > <B> NEW PATIENT SPECIAL </B><p></p><br><p style="color:black"> <b>$49 - First Visit Comprehensive exam, Includes 2 X-Rays </b><i> <br><br>a $169 value...cannot be combined with any other offer, bring coupon, cash only, no credit cards</i><br><br>Expires 8/30/2019
+						</div>
+						</div>
+
+					<div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:darkturquoise"> <B> TEETH WHITENING </B><p></p><br><p style="color:black"> <b>$199 - In office teeth whitening. </b><i> <br><br>a $329 value...cannot be combined with any other offer, bring coupon, cash only, no credit cards</i><br><br>Expires 8/30/2019
+						</div>
+						</div>
+
+					<div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:darkturquoise"> <B> EMERGENCY EXAM </B><p></p><br><p style="color:black"> <b>$59 - Same Day appointment, includes 2 X-Rays. </b><i> <br><br>a $129 value...cannot be combined with any other offer, bring coupon, cash only, no credit cards</i><br><br>Expires 8/30/2019
+
+						</div>
+						</div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:darkturquoise"> <B> CROWN </B><p></p><br><p style="color:black"> <b>$899 - High Quality Crowns from top rated labs.</b><i> <br><br>a $1275 value...cannot be combined with any other offer, bring coupon, cash only, no credit cards</i><br><br>Expires 8/30/2019
+
+						</div>
+						</div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:darkturquoise"> <B> DENTURES </B><p></p><br><p style="color:black"> <b>$2299 - Dentures from top rated labs, includes both upper and lower. </b><i> <br><br>a $2989 value...cannot be combined with any other offer, bring coupon, cash only, no credit cards</i><br><br>Expires 8/30/2019
+
+						</div>
+						</div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                         <h4 style="color:darkturquoise"> <B> KIDS COMPREHENSIVE EXAM  </B><p></p><br><p style="color:black"> <b>$54 - First Visit Comprehensive exam, Includes 2 X-Rays </b><i> <br><br>a $189 value...cannot be combined with any other offer, bring coupon, cash only, no credit cards</i><br><br>Expires 8/30/2019
+						
+						</div>
+						</div>
+				
+				</div>	<!-- Row ends here --> 

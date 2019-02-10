@@ -6017,6 +6017,12 @@ strong{
     background:#f7f7f7;
     color:#d4aa00ff
 }
+
+.specials{
+    background:#f7f7f7;
+    color:#1d2160
+}
+
 @media (min-width: 768px){
     .treatments .row{
         display:-webkit-box;
@@ -6165,6 +6171,7 @@ strong{
     background:#fff;
     text-align:center
 }
+
 .boxed-icon{
     width:2.3rem;
     height:2.3rem;
