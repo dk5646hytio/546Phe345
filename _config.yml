@@ -24,9 +24,10 @@ contact:
     address: 52 Summit Ave <br> Hackensack NJ <br> 07601
 
 # Opening hours
-monday_friday: 11:00 – 6:00 PM
+mon_thu: Closed
+friday: 11:00 – 6:00 PM
 saturday: 11:00  – 5:00 PM
-sunday: 11:00 – 3:00 PM
+sunday: Closed
 
 # Testimonials
 testimonials:
