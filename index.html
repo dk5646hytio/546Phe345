@@ -52,11 +52,11 @@ layout: default
 
 
 
-<!-- Style to bold         <h5 style="color:white"> -->  <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> <a style="color:white" href="tel:{{ site.contact.phone }}" title="{{ site.contact.phone }}" > {{ site.contact.phone }}  </a></li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> <a style="color:white" href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>{% endif %}
-        </ul>
+<!-- Style to bold         <h5 style="color:white"> -->  <h4><ul>
+            {% if site.contact.phone %}<li><strong style="color:white">Phone:</strong> <a style="color:white" href="tel:{{ site.contact.phone }}" title="{{ site.contact.phone }}" > {{ site.contact.phone }}  </a></li>{% endif %}
+            {% if site.contact.emergency %}<li><strong style="color:white">Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% if site.contact.email %}<li><strong style="color:white">Email:</strong> <a style="color:white" href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>{% endif %}
+        </ul> </h4>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
@@ -64,7 +64,7 @@ layout: default
 		<table>
             <tbody>
                 <tr>
-                    <td>Mon – Thur</td>
+                    <td>Mon – Thur</td> 
                     <td>{{ site.mon_thu }}</td>
                 </tr>
 
@@ -81,16 +81,16 @@ layout: default
                     <td>{{ site.sunday }}</td>
                 </tr>
             </tbody>
-        </table>
+        </table> 
     </div>
     <div class="col-sm-4">
 <a class="scroll"  style="color:white"  href="#location">
 		<svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
 
 		<h3>Location</h3>
-            <p>
+            <h4><p>
 				{{ site.contact.address }}</a>
-			</p> 
+			</p> </h4> 
     </div>
 </div>
 <!-- End 3 columns -->
