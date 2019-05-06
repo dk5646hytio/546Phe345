@@ -11,7 +11,7 @@ permalink: /404.html
 hero: 
     hero_img: hero.jpg
     hero_title: Your Satisfaction is Guaranteed! 
-    hero_description: At our clinic  you will be treated like family.<B> Dr Kathawala </B> and her staff is loving,caring and passionate about your well being. Make an appointment and experience the difference. 
+    hero_description: At our practice you will be treated like family.<B> Dr Kathawala </B> and her staff is loving,caring and passionate about your well being. Make an appointment and experience the difference. 
 
 # Contact form
 api_token: 79c4fb60ef557a2d31cd16e1300c0d27
@@ -24,7 +24,7 @@ contact:
     address: 52 Summit Ave <br> Hackensack NJ <br> 07601
 
 # Opening hours
-mon_thu: Closed
+mon_thu: By Appointment Only
 friday: 9.30:00 – 6:00 PM
 saturday: 10:00  – 6:00 PM
 sunday: Closed
