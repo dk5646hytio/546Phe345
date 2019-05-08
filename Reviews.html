@@ -1,0 +1,116 @@
+---
+layout: default
+title: Why Us
+description: What makes our dental office unique? Read our reviews and why patient choose Dr. Samina Kathawala  to be their trusted dentist in NJ. 201-778-0225.
+---
+
+<div class="hero" style="background: url('{{ site.baseurl }}/img/reviews.JPG') no-repeat; background-size: cover;">
+	<div class="hero-content">
+	<div class="container-fluid">
+            <div class="hero-content-inner">
+
+                <h1 style="color:goldenrod"></h1>
+            </div>
+	</div>
+    </div>
+    
+	<div class="container-fluid">
+              <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+
+	<h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Schedule an Appointment</h3>
+            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+                <div class="form-field">
+                    <input name="message" type="text" placeholder="Full Name ( First and Last Name)" required>
+                </div>
+                <div class="form-field">
+                    <input name="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"  maxlength="11" placeholder=" 10 Digit Phone Number ex. 2011234567" required>
+                </div>
+                <div class="form-field">
+                    <input name="email" type="email" placeholder="Email" required>
+                </div>
+                <div class="form-field">
+                    <textarea name="messages" placeholder="Please provide your full name, and date and time of appointment requested.Provide a phone number where we can text you the confirmation." required></textarea>
+                </div>
+                <input type="submit" class="btn btn-default" value="Send">
+            </form>
+
+
+			</div>
+
+    </div>
+</div>
+
+<!-- Start About -->
+
+<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+    <div class="overlay-container">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+		<h2 class="section-title" style="color:gold">Reviews</h2> 
+            <div id="testimonial-carousel">
+                {% for testimonial in site.data.testimonials %}
+                    <div class="testimonial-item">
+                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+                        <blockquote>
+                            <p>{{ testimonial.description }}</p>
+                            <footer>
+                                {{ testimonial.name }}
+                                <small>{{ testimonial.title }}</small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="whyus" class="whyus"> 
+    <div class="container-fluid">
+        <h2 class="section-title" style="color:gold">Why Us</h2>
+
+        <div class="row">
+                    <div class="col-sm-6 col-md-4">
+					<div class="icon-box">
+                         <h3 style="color:red"> <B>Google Reviews </B></h3><img src="{{ site.baseurl }}/img/google_logo.jpg" alt="google_logo"><p class="text-justify" style="color:black"><h3><a style="" target="_blank" href="https://www.google.com/search?q=dr+samina+kathawala"> See what others are saying about us on google. 
+</a></B> </h3></p>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-4">
+					<div class="icon-box">
+                         <h3 style="color:red"> <B>Facebook Reviews </B></h3><img src="{{ site.baseurl }}/img/facebook_logo.jpg" alt="facebook_logo"><p class="text-justify" style="color:black"><h3><a style="" target="_blank" href="https://www.facebook.com/pg/Dr-Samina-Kathawala-325513541239783/reviews/?ref=page_internal"> See what others are saying about us on facebook. 
+</a></B> </h3></p>
+						</div>
+					</div>
+                    <div class="col-sm-6 col-md-4">
+					<div class="icon-box">
+                         <h3 style="color:red"> <B>Health Grades</B></h3><img src="{{ site.baseurl }}/img/healthgrades_logo.jpg" alt="healthgrades_logo"><p class="text-justify" style="color:black"><h3><a style="" target="_blank" href="https://www.healthgrades.com/dentist/dr-samina-kathawala-g9dkw"> See what others are saying about us on HealthGrades.  <br><br>Health Grades is a premier review site for health care professionals.
+</a></B> </h3></p>
+						</div>
+					</div>
+
+				</div>	<!-- Row ends here --> 
+
+
+
+<div class="icon-box">
+  <p class="text-justify"><h3>
+
+Please write a review by clicking on the links below. Let us know how we did? 
+	<div class="container-fluid">
+</h3> <h3><ul class="social">
+	<li><a style="color:red" target="_blank" href="https://www.google.com/search?q=google+review+dr+samina+kathawala&ie=utf-8&oe=utf-8#lrd=0x89c250d395fbbd05:0x9c1227bc60b3e181,3,"> Google Link</a></li>
+
+	<li><a style="color:red" target="_blank" href="https://www.facebook.com/pg/Dr-Samina-Kathawala-325513541239783/reviews/?ref=page_internal
+"> FaceBook Link</a></li>
+
+	<li><a style="color:red" target="_blank" href="https://www.healthgrades.com/dentist/dr-samina-kathawala-g9dkw
+"> HealthGrades Link</a></li>
+
+	<li><a style="color:red" target="_blank" href="http://www.vitals.com/dentists/Dr_Samina_Kathawala
+"> Vitals Link</a></li>
+</ul></h3>
+</div>
+</p>
+</div>

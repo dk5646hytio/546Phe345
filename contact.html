@@ -1,17 +1,18 @@
 ---
 layout: default
-title: Dr Samina Kathawala DDS
+title: Contact Us - We are located next to Hackensack Hospital on Summit Ave.
+description: Dentist 07604 07601 07666 07075 07070 07666 07607 07661 07652.
 ---
 
 
 <!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: contain;">
+<div class="hero" style="background: url('{{ site.baseurl }}/img/contactus.JPG') no-repeat; background-size: cover;">
 	<div class="hero-content">
 	<div class="container-fluid">
             <div class="hero-content-inner">
 
-                <h1 style="color:goldenrod">{{ site.hero.hero_title }}</h1>
-				<p>{{ site.hero.hero_description }}</p> 
+                <h1>{% if site.contact.phone %}<a style="color:red" href="tel:{{ site.contact.phone }}" title="{{site.contact.phone }}"> {{site.contact.phone }}  </a>{% endif %} </h1>
+				<p>We are located next to Hackensack Hospital on Summit Ave. <b><br>Address - 52 Summit Ave, Hackensack NJ 07601 </b> </br></p>
             </div>
 
 
@@ -21,16 +22,14 @@ title: Dr Samina Kathawala DDS
     <div class="container-fluid">
 	        
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-<!-- TODO YOUTUBE VIDEO EMBED			<h3>Welcome!</h3>	
-<iframe  src="https://www.youtube.com/embed/8qvHQIJ4Y3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>						
--->
+
 	<h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Schedule an Appointment</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                 <div class="form-field">
                     <input name="message" type="text" placeholder="Full Name ( First and Last Name)" required>
                 </div>
                 <div class="form-field">
-                    <input name="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"  maxlength="11" placeholder=" 10 Digit Phone Number ex. 2011234567 NO DASHES" required>
+                    <input name="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"  maxlength="11" placeholder=" 10 Digit Phone Number ex. 2011234567" required>
                 </div>
                 <div class="form-field">
                     <input name="email" type="email" placeholder="Email" required>
@@ -52,6 +51,8 @@ title: Dr Samina Kathawala DDS
 
 <!--- FK Link to additional pages		<a href="/test.html">TEST</a>  --> 
 
+
+<!-- Start 3 columns -->
 <div id="contact" class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
@@ -111,73 +112,6 @@ title: Dr Samina Kathawala DDS
 </div>
 <!-- End 3 columns -->
 
-<!-- End Our team -->
-
-<!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
-    <div class="overlay-container">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-		<h2 class="section-title" style="color:gold">Reviews</h2> 
-            <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                    <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-                        <blockquote>
-                            <p>{{ testimonial.description }}</p>
-                            <footer>
-                                {{ testimonial.name }}
-                                <small>{{ testimonial.title }}</small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
-  <footer class="main-footer">
-Please write a review by clicking on the links below. Let us know how we did? 
-	<div class="container-fluid">
-<ul class="social">
-	<li><a style="color:red" target="_blank" href="https://www.google.com/search?q=google+review+dr+samina+kathawala&ie=utf-8&oe=utf-8#lrd=0x89c250d395fbbd05:0x9c1227bc60b3e181,3,"> Google Link</a></li>
-
-	<li><a style="color:red" target="_blank" href="https://www.facebook.com/pg/Dr-Samina-Kathawala-325513541239783/reviews/?ref=page_internal
-"> FaceBook Link</a></li>
-
-	<li><a style="color:red" target="_blank" href="https://www.healthgrades.com/dentist/dr-samina-kathawala-g9dkw
-"> HealthGrades Link</a></li>
-
-	<li><a style="color:red" target="_blank" href="http://www.vitals.com/dentists/Dr_Samina_Kathawala
-"> Vitals Link</a></li>
-
-    </div>
-</footer>
-<!-- End Testimonials -->
-
-<!-- Start Gallery --> 
-<!-- TODO TURNED OFF
-<div id="gallery" class="gallery">
-        
-    <h2 class="section-title" style="color:gold">Gallery</h2>
-
-    {% for images in site.data.gallery %}
-        <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
-            </div>
-            <div class="expandable-box-bottom">
-                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
-            </div>
-        </a>
-    {% endfor %}
-
-</div>
-
-TODO TURNED OFF -->
-<!-- End Gallery -->
-
-
 <!-- Start Map -->
 <!-- <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
 <!-- End Map -->
@@ -206,7 +140,3 @@ TODO TURNED OFF -->
 </div>
 
 
-
-
-				
-				</div>	<!-- Row ends here --> 

@@ -1,0 +1,112 @@
+---
+layout: default
+title: Dental Treatments
+description: Emergency Exam for a tooth ache, General Dentistry for prevention, diagnosis, and treatment of a variety of dental conditions such as routine dental exams, cleanings, or something more complex like a root canal. 
+---
+
+<div class="hero" style="background: url('{{ site.baseurl }}/img/dentaltreatments2.JPG') no-repeat; background-size: cover;">
+	<div class="hero-content">
+	<div class="container-fluid">
+            <div class="hero-content-inner">
+
+                <h1 style="color:goldenrod"></h1>
+            </div>
+	</div>
+    </div>
+    
+	<div class="container-fluid">
+              <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+
+	<h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Schedule an Appointment</h3>
+            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+                <div class="form-field">
+                    <input name="message" type="text" placeholder="Full Name ( First and Last Name)" required>
+                </div>
+                <div class="form-field">
+                    <input name="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"  maxlength="11" placeholder=" 10 Digit Phone Number ex. 2011234567" required>
+                </div>
+                <div class="form-field">
+                    <input name="email" type="email" placeholder="Email" required>
+                </div>
+                <div class="form-field">
+                    <textarea name="messages" placeholder="Please provide your full name, and date and time of appointment requested.Provide a phone number where we can text you the confirmation." required></textarea>
+                </div>
+                <input type="submit" class="btn btn-default" value="Send">
+            </form>
+
+
+			</div>
+
+    </div>
+</div>
+
+<!-- Start About -->
+
+
+<div class="about">
+    <div class="container-fluid">
+     
+	
+		<div class="row">
+
+			<div class="col-sm-4">
+                <div class="media">
+{% include Dental_Treatments_Side_Bar.html %}		</div>
+
+        </div>
+<div id="composite" class="col-sm-8">
+
+					<div id="composite" class="icon-box">
+                        <h2 style="color:goldenrod"><B> Composite Fillings </B></h2>
+						      				<iframe src="https://player.vimeo.com/video/109456967" width="100%" height="426" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>						<!-- <img src="{{ site.baseurl }}/img/carecredit.jpg" alt="treatment.title"> -->
+                        
+<h4><p class="text-justify">
+A dental restoration or <strong>dental filling</strong> is a <a title="Dental restorative material" href="http://en.wikipedia.org/wiki/Dental_restorative_material" target="_blank">dental restorative material</a> used to restore the function, integrity and <a title="Comparative anatomy" href="http://en.wikipedia.org/wiki/Comparative_anatomy" target="_blank">morphology</a> of missing tooth structure.</p><p class="text-justify">The structural loss typically results from <a title="Dental caries" href="http://en.wikipedia.org/wiki/Dental_caries" target="_blank">caries</a> or external trauma.
+<p>
+<h2 style="color:black"><B> What are Dental composites? </B></h2>
+<h4><p class="text-justify">
+Dental composites are also called white fillings. Dental composite resins (better referred to as "resin-based composites" or simply "filled resins") are types of synthetic resins that are used in dentistry as restorative material or adhesives. <br><br>Dental composite resins have certain properties that will benefit patients according to the patient's cavity. It has a micro-mechanic property that makes composite more effective for filling small cavities where amalgam fillings are not as effective and could therefore fall out (due to the macro-mechanic property of amalgam). Read more about compsites on <a title="Dental Composites" href="https://en.wikipedia.org/wiki/Dental_composite" target="_blank">Wikipedia</a>.
+<br><br>
+Many people still have silver/mercury fillings in their mouths from years past. These fillings are not particularly pleasing to the eye, since amalgam is NOT the most commonly used filling material in use these days. </p>
+
+<h2 style="color:black"><B> Advantages of Tooth-Colored Restorations</B></h2>
+<h4><p class="text-justify">
+There are many advantages to tooth-colored restorations.<br><br> <ul class="text-justify">
+	<li>Composite resigns are bonded to the teeth creating a tight, superior fit to the natural tooth. <br><br>  
+	<li>Chemically bonded restorations remains intact longer, are much stronger and provide a pleasing look.<br><br>
+	<li>Since the resin used in tooth-colored restorations contain fluoride this can help prevent decay. <br><br>  
+	<li>The resin wears like natural teeth and does not require placement at the gum line, which is healthier for your gums!
+<br><br>
+
+</ul> </p>
+
+<h2 style="color:black"><B> Disadvantages Of Silver Fillings</B></h2>
+<h4><p class="text-justify">
+<h4><p class="text-justify">
+Silver fillings has some limitations.<br><br> <ul class="text-justify">
+	<li>The edges of the silver filling can wear down, become weak or break.This results in the tooth not being protected and creates an environment where cavities get started once again.  <br><br>  
+	<li>With age, the metal of a silver filling expands, contracts, and can split.  Along with the expansion and contractions, it is very common for metal fillings to develop micro-fractures that cause small leakages that cause the growth of decay underneath the filling; further weakening the tooth structure.
+<br><br>
+	<li>Silver fillings contain 50 percent mercury. <br><br>  
+	<li>They can corrode, leak, and cause stains on your teeth and gums.
+<br><br>
+Read more about amalgam fillings on <a title="Dental Composites" href="https://en.wikipedia.org/wiki/Amalgam_(dentistry)" target="_blank">Wikipedia</a>.
+<br><br>
+<i>Fortunately, silver fillings can safely be replaced with tooth-colored restorations.
+</i>
+</ul>
+<br>
+<h3><p class="text-justify">
+For appointment's please call <b>{% if site.contact.phone %}<strong style="color:red"></strong> <a style="color:red" href="tel:{{ site.contact.phone }}" title="{{ site.contact.phone }}" > {{ site.contact.phone }}  </a></b>{% endif %}
+</h3>
+
+					 </div>
+
+            </div>
+    </div>
+
+</div>
+</div>
+<!-- End -->
+
+

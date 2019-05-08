@@ -1,6 +1,6 @@
 # Site settings
-title: Cute Smile Hackensack NJ
-description: "Dr Samina Kathawala DDS Dentist Hackensack NJ 07601"
+title: Cute Smile | 52 Summit Ave Hackensack NJ 07601 | 201-778-0225
+description: "Dr Samina Kathawala DDS serves as a dentist Hackensack 07601 | Hasbrouck Heights 07604 | Lodi 07644 | Rutherford 07070 | Wood-ridge 07075 | Teaneck 07666 | Maywood 07607 | River Edge 07661 | Paramus 07652."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.cutesmilenj.com" # the name of your domain
 logo_url: svg/min/logo.svg
@@ -40,11 +40,13 @@ map:
     address_details: svg/min/logo.svg
 
 # Social settings
-# facebook: http://facebook.com
-# twitter: http://twitter.com
-# instagram: http://instagram.com
-# youtube: http://youtube.com
-# skype: skype:obaez_design?userinfo
+google: https://www.google.com/search?q=dr+samina+kathawala
+facebook: https://www.facebook.com/pg/Dr-Samina-Kathawala-325513541239783/reviews/?ref=page_internal
+healthgrades: https://www.healthgrades.com/dentist/dr-samina-kathawala-g9dkw
+#twitter: http://twitter.com
+#instagram: http://instagram.com
+#youtube: http://youtube.com
+#skype: skype:obaez_design?userinfo
 # feed: yes
 
 # Footer

@@ -1,0 +1,24 @@
+<h2 style="color:black"><B> Advantages of Tooth-Colored Restorations</B></h2>
+<h4><p class="text-justify">
+There are many advantages to tooth-colored restorations.<br><br> <ul class="text-justify">
+	<li>Composite resigns are bonded to the teeth creating a tight, superior fit to the natural tooth. <br><br>  
+	<li>Chemically bonded restorations remains intact longer, are much stronger and provide a pleasing look.<br><br>
+	<li>Since the resin used in tooth-colored restorations contain fluoride this can help prevent decay. <br><br>  
+	<li>The resin wears like natural teeth and does not require placement at the gum line, which is healthier for your gums!
+<br><br>
+
+</ul> </p>
+
+
+<a title="Dental restorative material" href="http://en.wikipedia.org/wiki/Dental_restorative_material" target="_blank">dental restorative material</a> 
+
+
+<img src="{{ site.baseurl }}/img/carecredit.jpg" alt="treatment.title">
+
+<h4><p class="text-justify">
+Call us for more info {% if site.contact.phone %}<strong style="color:red">Phone:</strong> <a style="color:white" href="tel:{{ site.contact.phone }}" title="{{ site.contact.phone }}" > {{ site.contact.phone }}  </a>{% endif %}
+</h4>
+
+
+
+<iframe width="750" height="422" src="https://www.youtube.com/embed/Z4GGCU8QfII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

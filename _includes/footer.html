@@ -3,8 +3,11 @@
     <div class="container-fluid">
         
         <ul class="social">
-            {% if site.facebook %}<li><a href="{{ site.facebook }}"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>{% endif %}
-            {% if site.twitter %}<li><a href="{{ site.twitter }}"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>{% endif %}
+			{% if site.google %}<li><a target="_blank" href="{{ site.google}}"><img src="{{ site.baseurl }}/img/google.png" alt="google_logo"></a></li>{% endif %}
+            {% if site.facebook %}<li><a target="_blank" href="{{ site.facebook }}"><img src="{{ site.baseurl }}/img/facebook.png" alt="facebook_logo"></a></li>{% endif %}
+            {% if site.healthgrades%}<li><a target="_blank" href="{{ site.healthgrades}}"><img src="{{ site.baseurl }}/img/hg.png" alt="healthgrades_logo"></a></li>{% endif %}
+
+			{% if site.twitter %}<li><a href="{{ site.twitter }}"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>{% endif %}
             {% if site.instagram %}<li><a href="{{ site.instagram }}"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a></li>{% endif %}
             {% if site.youtube %}<li><a href="{{ site.youtube }}"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>{% endif %}
             {% if site.skype %}<li><a href="{{ site.skype }}"><svg class="icon icon-skype"><use xlink:href="#icon-skype"></use></svg></a></li>{% endif %}
@@ -20,23 +23,19 @@
 <p>
 <p>
 	        <div> 				
-			<a class="scroll"  style="color:white"  href="#top">Home</a></li>&nbsp;&nbsp;
-                <a class="scroll" style="color:white"  href="#contact">Contact Us</a>&nbsp;&nbsp;
-				
-                <a class="scroll"  style="color:white"  href="#about">Insurance</a>&nbsp;&nbsp;
-                <a class="scroll"  style="color:white"  href="#treatments">Treatments</a>&nbsp;&nbsp;
+			<a class="scroll"  style="color:white"  href="{{ site.baseurl }}/index.html">Home</a></li>&nbsp;&nbsp;
+            <a class="scroll" style="color:white"  href="{{ site.baseurl }}/contact.html">Contact Us</a>&nbsp;&nbsp;
+			<a class="scroll" style="color:white"  href="{{ site.baseurl }}/AboutUs.html">About Us</a>&nbsp;&nbsp;
+			<a class="scroll" style="color:white"  href="{{ site.baseurl }}/Reviews.html">Reviews</a>&nbsp;&nbsp;
+
+
+			
 		<!-- FK TODO		<li class="withSubMenu"><a href="#">SERVICES</a>
     <ul class="nav navbar-nav navbar-right">
     <li class=""><a href="/g1.html">PROGRAMS</a></li>
     <li class=""><a href="/g2.html">EVENTS</a></li>
     </ul> 
 </li> -->
-                <a class="scroll"  style="color:white"  href="#team">Meet The Doctor</a>&nbsp;&nbsp;
-                <a class="scroll"  style="color:white"  href="#whyus">Why Us</a>&nbsp;&nbsp;
-                <a class="scroll" style="color:white"   href="#testimonials">Reviews</a>&nbsp;&nbsp;
-<a class="scroll"  style="color:white"  href="#specials">Specials</a>&nbsp;&nbsp;
-<!-- TODO                <a class="scroll"  style="color:white"  href="#gallery">Gallery</a>&nbsp;&nbsp; -->
-                <a class="scroll"  style="color:white"  href="#location">Address</a>&nbsp;&nbsp;
         </div>
 <!--    </div> -->
 
