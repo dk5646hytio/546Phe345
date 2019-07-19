@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Dr Samina Kathawala DDS
+title: Delta Dental Patients Welcome
+description: What makes our dental office unique? Read our reviews and why patient choose Dr. Samina Kathawala  to be their trusted dentist in Hackensack, Lodi, Hasbrouck Heights, Rutherford, River Edge, New Milford, Saddle River, Wood Ridge, Paramus, Glen Rock. 201-778-0225.
 ---
-
 
 <!-- Start Hero -->
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: contain;">
@@ -10,13 +10,17 @@ title: Dr Samina Kathawala DDS
 	<div class="container-fluid">
             <div class="hero-content-inner">
 
-                <h1 style="color:goldenrod">{{ site.hero.hero_title }}</h1>
-				<p>{{ site.hero.hero_description }}</p> 
-            </div>
+                <h1 style="color:goldenrod">Welcome DELTA DENTAL Patients</h1>
+	<img src="{{ site.baseurl }}/img/DeltaDental.jpg" alt="reviews">
+
+				<p>We are <b>PREFERRED IN-NETWORK </b> provider and see 100's of Delta Dental PPO patients every month.<BR> </p> <p style="color:red">Give us a try, you will love it!.  <b>Schedule online by filling the form on the right.</b></p>
+
+			</div>
 
 
 			</div>
     </div>
+
 
     <div class="container-fluid">
 	        
@@ -44,17 +48,11 @@ title: Dr Samina Kathawala DDS
 
 			</div>
 
-    </div> 
+    </div>
+</div>
+
+
 <!-- End Hero -->
-
-	</div>
-
-
-
-
-
-<!--- FK Link to additional pages		<a href="/test.html">TEST</a>  --> 
-
 <div id="contact" class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
@@ -75,7 +73,7 @@ title: Dr Samina Kathawala DDS
 		<table>
             <tbody>
                 <tr>
-                    <td>Mon – Thur</td> 
+                    <td>Mon-Thur</td> 
                     <td>{{ site.mon_thu }}</td>
                 </tr>
 				                <tr>
@@ -102,7 +100,8 @@ title: Dr Samina Kathawala DDS
             </tbody>
         </table> </h3>
     </div>
-    <div class="col-sm-4">
+
+<div class="col-sm-4">
 <a class="scroll"  style="color:white"  href="#location">
 		<svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
 
@@ -112,78 +111,6 @@ title: Dr Samina Kathawala DDS
 			</p> </h3> 
     </div>
 </div>
-<!-- End 3 columns -->
-
-<!-- End Our team -->
-
-<!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
-    <div class="overlay-container">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-		<h2 class="section-title" style="color:gold">Reviews</h2> 
-            <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                    <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-                        <blockquote>
-                            <p>{{ testimonial.description }}</p>
-                            <footer>
-                                {{ testimonial.name }}
-                                <small>{{ testimonial.title }}</small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
-  <footer class="main-footer">
-Please write a review by clicking on the links below. Let us know how we did? 
-	<div class="container-fluid">
-<ul class="social">
-	<li><a style="color:red" target="_blank" href="https://www.google.com/search?q=google+review+dr+samina+kathawala&ie=utf-8&oe=utf-8#lrd=0x89c250d395fbbd05:0x9c1227bc60b3e181,3,"> Google Link</a></li>
-
-	<li><a style="color:red" target="_blank" href="https://www.facebook.com/pg/Dr-Samina-Kathawala-325513541239783/reviews/?ref=page_internal
-"> FaceBook Link</a></li>
-
-	<li><a style="color:red" target="_blank" href="https://www.healthgrades.com/dentist/dr-samina-kathawala-g9dkw
-"> HealthGrades Link</a></li>
-
-	<li><a style="color:red" target="_blank" href="http://www.vitals.com/dentists/Dr_Samina_Kathawala
-"> Vitals Link</a></li>
-
-    </div>
-</footer>
-<!-- End Testimonials -->
-
-<!-- Start Gallery --> 
-<!-- TODO TURNED OFF
-<div id="gallery" class="gallery">
-        
-    <h2 class="section-title" style="color:gold">Gallery</h2>
-
-    {% for images in site.data.gallery %}
-        <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
-            </div>
-            <div class="expandable-box-bottom">
-                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
-            </div>
-        </a>
-    {% endfor %}
-
-</div>
-
-TODO TURNED OFF -->
-<!-- End Gallery -->
-
-
-<!-- Start Map -->
-<!-- <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
-<!-- End Map -->
 
 <style>
     .google-maps {
@@ -207,11 +134,4 @@ TODO TURNED OFF -->
 <div id="location"  class="google-maps">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.365710364024!2d-74.06068088489864!3d40.88579207931327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fa20c5d6d0e3%3A0x2d0bdc55167c07b3!2s52+Summit+Ave%2C+Hackensack%2C+NJ+07601!5e0!3m2!1sen!2sus!4v1541732154975" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-
-
-
-
-				
-				</div>	<!-- Row ends here --> 
-
 
