@@ -63,6 +63,9 @@ description: Dentist 07604 07601 07666 07075 07070 07666 07607 07661 07652.
 
 <!-- Style to bold         <h5 style="color:white"> -->  <h3><ul>
             {% if site.contact.phone %}<li><strong style="color:white">Phone:</strong> <a style="color:white" href="tel:{{ site.contact.phone }}" title="{{ site.contact.phone }}" > {{ site.contact.phone }}  </a></li>{% endif %}<br>
+{% if site.contact.text %}<li><strong style="color:white">Text:</strong> <a style="color:white" href="sms:{{ site.contact.text }}" title="{{ site.contact.text }}" > {{ site.contact.text}}  </a></li>{% endif %}<br>
+
+
             {% if site.contact.emergency %}<li><strong style="color:white">Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
             {% if site.contact.email %}<li><strong style="color:white">Email:</strong> <a style="color:white" href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></li>{% endif %}
         </ul> </h3>
