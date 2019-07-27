@@ -11,7 +11,13 @@ description: Dentist 07604 07601 07666 07075 07070 07666 07607 07661 07652.
 	<div class="container-fluid">
             <div class="hero-content-inner">
 
-                <h1>{% if site.contact.phone %}<a style="color:red" href="tel:{{ site.contact.phone }}" title="{{site.contact.phone }}"> {{site.contact.phone }}  </a>{% endif %} </h1>
+                <h1>
+				
+				{% if site.contact.phone %}<strong style="color:white">Phone</strong> <a style="color:red" href="tel:{{ site.contact.phone }}" title="{{site.contact.phone }}"> {{site.contact.phone }}  </a>{% endif %} 
+<br>
+{% if site.contact.text %}<strong style="color:white">Text</strong> <a style="color:red" href="sms:{{ site.contact.text }}" title="{{ site.contact.text }}" > {{ site.contact.text}}  </a>{% endif %}<br>
+</h1>
+
 				<p>We are located next to Hackensack Hospital on Summit Ave. <b><br>Address - 52 Summit Ave, Hackensack NJ 07601 </b> </br></p>
             </div>
 
