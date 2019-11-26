@@ -17,6 +17,16 @@ description: Chipped tooth is quite common then you think. So do not panic. Firs
 	<div class="container-fluid">
               <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
 
+			               <h1>
+				
+				{% if site.contact.phone %}<strong style="color:black">Phone</strong> <a style="color:red" href="tel:{{ site.contact.phone }}" title="{{site.contact.phone }}"> {{site.contact.phone }}  </a>{% endif %} 
+<br>
+{% if site.contact.text %}<strong style="color:black">Text</strong> <a style="color:red" href="sms:{{ site.contact.text }}" title="{{ site.contact.text }}" > {{ site.contact.text}}  </a>{% endif %}<br>
+</h1>
+
+				<p>We are located next to Hackensack Hospital on Summit Ave. <b><br>Address - 52 Summit Ave, Hackensack NJ 07601 </b> </br></p>
+
+
 	<h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Schedule an Appointment</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                 <div class="form-field">
@@ -86,7 +96,7 @@ There are many options and depending on the severity certain options may or may 
 	<li>Option 1 - Dental Bonding - To restore chipped tooth as a cosmetic dentist we apply tooth colored bonding material to the damaged tooth and then artistically shape it to make it look natural, and harden it for a natural-looking restoration. However the bonding material and look will be asthetic it will not be as storng as a crown and therefore special care shall be taken to improve longevity. <br><br>  
 	<li>Option 2 - Dental Veneers - Many of the adults who visit our general dentist office prefer to repair their teeth using dental veneers. A veneer can be used to restore a chipped tooth, cover dark stains, close gaps in between teeth, and more. This makes veneers an incredibly popular option among our patients.<br><br>
 	<li>Option 3 - Dental Crown or Bridge - If you have lost a tooth in addition to damaging one, we can do the above options to restore the damaged tooth and then work on replacing your missing tooth. To replace your missing tooth dental crowns and bridges or dental implants can be done. Both solutions will restore the appearance and functionality of your smile. And dental crown or bridge or an implant will last you a long time.<br><br>  
-
+</h4>
 <h2 style="color:black">Will this restore my smile?</h2>
 <h4><p class="text-justify">
 In most instances a properly done smile makeover will not only restore but enhance your smile. You will be astounded by the results. We routinely do smile makeovers and cosmetic dentistry in our Hackensack NJ clinic. Ecstatic patients, taking selfies and jumping with joy ( when they see the results) is a routine occurrence at our clinic. 
@@ -124,6 +134,48 @@ While cosmetic dentistry is not cheap, but our prices are reasonable. Call us an
 </p>
 
 
+<p class="text-justify">
+
+<b style="color:red"> Definition of Dental Emergency </b>
+<br><br>
+<b style="color:black"> Impacted Wisdom Tooth
+</b>
+<br><br>
+
+An impacted wisdom tooth is a tooth that does not erupt from the gums properly that can cause pain and become infected without professional extraction.<br><br>
+
+<b style="color:black"> Abscess
+</b>
+<br><br>
+
+A dental abscess is a pocket of pus the forms in the tooth root from a bacterial infection.
+
+<br><br>
+<b style="color:black"> Irreversible Pulpitis
+</b>
+<br><br>
+
+    Irreversible pulpitis is when the pain in the tooth occurs spontaneously or continues to hurt even after the stimulus is removed such as hot or cold substance that was causing pain. Normal pulpitis will cease hurting directly after removing what is causing the pain.
+
+<br><br>
+<b style="color:black"> Lateral Luxation
+</b>
+<br><br>
+
+
+    Lateral luxation is the displacement of a tooth that moves it in the wrong direction while it is still attached to the gums.
+
+<br><br>
+<b style="color:black"> Tooth Fracture</b>
+<br><br>
+    A tooth fracture can result from multiple sources including an accidental blow to the face during a sports game, biting on something really hard, falling face first. It's recommended that you see your dentist soon after a dental fracture.  
+<br><br>
+<b style="color:black"> Facial Cellulitis</b>
+<br><br>
+
+    Facial cellulitis is a condition in which an infection from an abscess or plaque in the teeth causes pain and spreads throughout the face.
+
+<br><br>
 
 <h3><p class="text-justify">
 For appointment's please call <b>{% if site.contact.phone %}<strong style="color:red"></strong> <a style="color:red" href="tel:{{ site.contact.phone }}" title="{{ site.contact.phone }}" > {{ site.contact.phone }}  </a></b>{% endif %}

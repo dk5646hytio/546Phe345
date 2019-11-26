@@ -16,6 +16,15 @@ description: Teeth whitening will brighten your smile. Daily you eat different f
     
 	<div class="container-fluid">
               <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+			               <h1>
+				
+				{% if site.contact.phone %}<strong style="color:black">Phone</strong> <a style="color:red" href="tel:{{ site.contact.phone }}" title="{{site.contact.phone }}"> {{site.contact.phone }}  </a>{% endif %} 
+<br>
+{% if site.contact.text %}<strong style="color:black">Text</strong> <a style="color:red" href="sms:{{ site.contact.text }}" title="{{ site.contact.text }}" > {{ site.contact.text}}  </a>{% endif %}<br>
+</h1>
+
+				<p>We are located next to Hackensack Hospital on Summit Ave. <b><br>Address - 52 Summit Ave, Hackensack NJ 07601 </b> </br></p>
+
 
 	<h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Schedule an Appointment</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
@@ -95,6 +104,7 @@ Depending on the whitening method you choose, results can be dramatic: in-office
 <h4><p class="text-justify">Tooth whitening is not a good choice for all people. If you have tooth decay or gum disease, your dentist may recommend that these be treated before whitening. </p>
 <h4><p class="text-justify">So talk to your dentist about teeth whitening before you begin. He or she will do an oral exam to find out if teeth whitening is right for you.</p>
 </h4>
+<!-- Definitions of Dental Terms --->
 <h4><p class="text-justify">
 <p class="text-justify">
 
@@ -121,10 +131,12 @@ Depending on the whitening method you choose, results can be dramatic: in-office
 
    An autograft is a graft of tissue from one portion of an individual's body to another.
 </h4>
+<!--definitions ends here -->
 
 <h3>Check out this ADA article on teeth whitening for more info.</h3>
 <h3><a title="ADA Teeth Whitening" href="https://www.mouthhealthy.org/en/az-topics/w/whitening" target="_blank">ADA article</a> 
 </h3>
+
 <br>
 
 <br>
