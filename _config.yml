@@ -24,10 +24,10 @@ contact:
     text: 201 778 0280
 
 # Opening hours
-Mon-Thu : By Appointment Only
-Fri: 9:30 – 6:00 PM
-Sat: 10:00  – 6:00 PM
-Sun: Closed
+mon_thu: By Appointment Only
+friday: 9.30 – 6:00 PM
+saturday: 10:00  – 6:00 PM
+sunday: Closed
 
 # Testimonials
 testimonials:
