@@ -33,6 +33,7 @@ sunday: Closed
 testimonials:
     testimonials_img: parallax.jpg
 
+
 # Map
 map:
     zoom: 15
