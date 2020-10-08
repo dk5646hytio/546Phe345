@@ -1,5 +1,5 @@
 # Site settings
-title: Cute Smile Dentist Hackensack NJ | Dr Samina Kathawala DDS 52 Summit Ave Hackensack NJ 201 778 0225 2017780225 2017780280 201 778 0280
+title: DR SAMINA KATHAWALA  DDS - CUTE SMILE DENTIST Hackensack NJ  - 52 Summit Ave Hackensack NJ 201 778 0225 2017780225 2017780280 201 778 0280
 description: "Dr Samina Kathawala DDS. | Gentle Painless Dentist. Best Dentist serving Hackensack NJ Lodi NJ Saddle Brook NJ Hasbrouck Heights NJ Lodi NJ Elmwood Park NJ Garfield NJ Ridgewood NJ Glen Rock NJ River Edge NJ Teaneck NJ Maywood NJ Paramus NJ Carlstadt NJ East Rutherford NJ South Hackensack NJ Wood Ridge NJ Wood-ridge NJ. 52 Summit Ave Hackensack NJ 07601 201-778-0225"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.cutesmilenj.com" # the name of your domain
@@ -25,9 +25,9 @@ contact:
 
 # Opening hours
 mon_thu: By Appointment Only
-friday: 10:00 – 6:30 PM
-saturday: 10:00  – 6:30 PM
-sunday: Closed
+friday: 10:00 – 6:30
+saturday: 10:00  – 7:00
+sunday: 10:00  – 7:00
 
 # Testimonials
 testimonials:
