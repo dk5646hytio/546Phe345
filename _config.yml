@@ -51,7 +51,7 @@ healthgrades: https://www.healthgrades.com/dentist/dr-samina-kathawala-g9dkw
 # feed: yes
 
 # Footer
-copyright: <B> Cute Smiles LLC, <P> 52 Summit Ave, Hackensack NJ 07601 </P> <p>Phone <a style="color:white" href="tel:201 778 0225" > 201 778 0225 </a><B></p> <p>© 2018 CuteSmiles - All rights reserved</p>
+copyright: <B> Cute Smile - Dr Samina Kathawala, <P> 52 Summit Ave, Hackensack NJ 07601 </P> <p>Phone <a style="color:white" href="tel:201 778 0225" > 201 778 0225 </a><B></p> <p>© 2018 Cute Smile - All rights reserved</p>
 
 # Build settings
 markdown: kramdown
